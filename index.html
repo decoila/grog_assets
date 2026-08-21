@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Grog</title>
 
+  <!-- Starts the connection to Apps Script's servers as early as
+       possible, in parallel with this page's own load, rather than
+       waiting until the JS below has run before even beginning. -->
+  <link rel="preconnect" href="https://script.google.com">
+  <link rel="dns-prefetch" href="https://script.google.com">
+
   <!-- Real manifest gets swapped in dynamically below, personalized
        per visitor. This static file is just the fallback for the very
        first instant before that JS runs. -->
